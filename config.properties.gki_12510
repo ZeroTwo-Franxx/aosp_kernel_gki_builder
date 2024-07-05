@@ -1,5 +1,5 @@
-KERNEL_SOURCE=https://git.codelinaro.org/clo/la/kernel/common.git
-KERNEL_SOURCE_BRANCH=aosp-new/android12-5.10
+KERNEL_SOURCE=https://github.com/ZeroTwo-Franxx/android_gki_kernel_5.10_common.git
+KERNEL_SOURCE_BRANCH=android12-5.10-2024-05
 KERNEL_CONFIG=gki_defconfig
 KERNEL_IMAGE_NAME=Image
 ARCH=arm64
@@ -10,7 +10,7 @@ AOSP_CLANG_SYSTEM=linux-x86
 AOSP_CLANG_BRANCH=main
 AOSP_CLANG_VERSION=r416183b1
 USE_CUSTOM_CLANG=true
-CUSTOM_CLANG_SOURCE=https://github.com/ZyCromerZ/Clang/releases/download/19.0.0git-20240210-release/Clang-19.0.0git-20240210.tar.gz
+CUSTOM_CLANG_SOURCE=https://github.com/ZyCromerZ/Clang/releases/download/16.0.6-20240430-release/Clang-16.0.6-20240430.tar.gz
 CUSTOM_CLANG_BRANCH=
 
 ENABLE_GCC=true
